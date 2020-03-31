@@ -20,6 +20,14 @@ arcade.draw_lrtb_rectangle_outline(
     5, 35, 90, 70, arcade.color.BITTER_LIME
     )
 
+arcade.draw_lrtb_rectangle_outline(
+    100, 35, 90, 70, arcade.color.BITTER_LIME, 45
+    )
+
+arcade.draw_point(50, 580, arcade.color.RED, 5)
+
+arcade.draw_line()
+
 arcade.draw_circle_filled(
     190, 580, 18,
     arcade.color.RED

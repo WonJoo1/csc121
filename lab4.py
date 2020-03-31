@@ -1,10 +1,7 @@
-
 import arcade
 
 screen_wid = 1000
 screen_hei = 600
-
-
 
 
 def draw_bird(x, y):
@@ -89,13 +86,11 @@ def on_draw(delta_time):
     draw_flower(553, 80)
 
 
-
 on_draw.bird_x1 = 50 
 on_draw.bird_x2 = 450
 on_draw.bird_x3 = 570
 on_draw.apple_y1 = 150
 on_draw.apple_y2 = 60
-
 
 
 def main():
